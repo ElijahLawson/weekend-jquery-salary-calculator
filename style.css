@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-color: #0f0e17;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title-bar {
+    display: flex;
+    height: 100px;
+    background-color: #f25f4c;
+
+}
+
+h1 {
+    margin: auto;
+    color: #fffffe;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    letter-spacing: .2rem;
+}
+
+h3 {
+    color: #fffffe;
+}
+
+.table-box {
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead {
+    background-color: #f25f4c;
+}
+
+th {
+    color: white;
+}
+
+th, td {
+    border: 1px solid;
+    border-color: #ff8906;
+    padding: 8px;
+}
+thead th {
+    width: 5%;
+
+}
+
+#total-text {
+    text-align: right;
+    padding-right: 10px;
+}
